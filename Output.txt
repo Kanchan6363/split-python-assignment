@@ -1,0 +1,74 @@
+"c:/Users/kanckuma/OneDrive - AMDOCS/Backup Folders/Documents/SplitKaro/Splitapp.py"
+------------------------------------------------------------------
+To create Group
+Enter name of the group
+Home
+Enter number of people in group
+2
+Add names: - 
+
+Kanchan
+Harshit
+{'GroupName': 'Home', 'Members': ['Kanchan', 'Harshit']}
+------------------------------------------------------------------
+To Add expense
+Enter the description of expense
+Fruits
+How much items are there?
+1
+Enter name of item number 1
+Mango
+Enter Value of item number 1
+50
+Enter number of people who Paid
+2
+Enter name of person 1
+Kanchan
+Enter Amount?
+40
+Enter name of person 2
+Harshit
+Enter Amount?
+10
+Enter number of people who Owed
+3
+Enter name of person 1
+Kanchan
+Enter Amount?
+20
+Enter name of person 2
+Harshit
+Enter Amount?
+20
+Enter name of person 3
+Diwanshi
+Enter Amount?
+10
+Expense : -
+{'Name': 'Fruits', 'items': [{'name': 'Mango', 'Value': 50, 'paid by': [{'Kanchan': 40, 'Harshit': 10}], 'owed by': [{'Kanchan': 20, 'Harshit': 20, 'Diwanshi': 10}]}]}
+Group Members : -
+{'GroupName': 'Home', 'Members': ['Kanchan', 'Harshit', 'Diwanshi']}
+None
+------------------------------------------------------------------
+To Update expense
+what do you want to update?
+ 1.Expense name
+ 2.items_name
+ 3.items value
+ 4.Update the amount person who paid
+ 5.Update the amount of person who owed
+ 6. To quit
+5
+Enter name of person
+Diwanshi
+Enter amount
+10
+None
+-------------------------------------------------------------------
+To delete expense
+want to delete? y or n
+n
+------------------------------------------------------------------
+ Get Balance status
+{'name': 'Home', 'Balances': {'Kanchan': {'balances': 20, 'owes by': [], 'owes to': []}, 'Harshit': {'balances': -10, 'owes by': [], 'owes to': []}, 'Diwanshi': {'balances': -10, 'owes by': [], 'owes to': []}}}
+PS C:\Users\kanckuma\OneDrive - AMDOCS\Backup Folders\Documents\SplitKaro>
